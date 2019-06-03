@@ -22,8 +22,8 @@ docker pull php4all/php:7.2
 
 ### Avaliable PHP Versions
 
-* php 7.3.5;
-* php 7.2.18.
+* php 7.3.6;
+* php 7.2.19.
 
 **Techonologies:**
 
