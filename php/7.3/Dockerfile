@@ -1,7 +1,7 @@
 #
 # Official PHP Image
 #
-FROM php:7.3-fpm-alpine3.9
+FROM php:7.3-fpm-alpine3.10
 
 #
 # Author
@@ -22,7 +22,7 @@ COPY ./templates /templates
 # Default values
 #
 ARG NGINX_VERSION=1.16.0
-ARG NGINX_NJS_VERSION=0.3.1
+ARG NGINX_NJS_VERSION=0.3.2
 ARG NGINX_PKG_RELEASE=1
 
 #
