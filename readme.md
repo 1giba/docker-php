@@ -22,13 +22,13 @@ docker pull php4all/php:7.2
 
 ### Avaliable PHP Versions
 
-* php 7.3.7;
-* php 7.2.20.
+* php 7.3.10;
+* php 7.2.23.
 
 **Techonologies:**
 
 * Alpine 3.10
-* Nginx 1.16.0
+* Nginx 1.16.1
 * Supervisor 3.3.5
 
 ## From Sources
@@ -42,7 +42,7 @@ Clone or download zip and extract to some path.
 To create a docker image with php 7.3, run:
 
 ```sh
-docker build -t php4all/php -f ./php/7.3/Dockerfile .
+docker build -t php4all/php:7.3 -f ./php/7.3/Dockerfile .
 ```
 
 ### PHP 7.2 Image
@@ -55,7 +55,7 @@ docker build -t php4all/php:7.2 -f ./php/7.2/Dockerfile .
 
 ## Test container
 
-Execute the command:
+Run the command:
 
 ```sh
 docker run -d -p 8080:80 php4all/php
@@ -67,7 +67,7 @@ And access in your browser:
 
 ### Customization
 
-The environment variables below can be changed:
+The environment variables can be changed:
 
 ```sh
 docker run -d \
@@ -85,4 +85,4 @@ I hope you enjoy it.
 
 ---
 
-> [1giba](https://github.com/1giba/docker-php)
+> Regards, [1giba](https://github.com/1giba/docker-php)
